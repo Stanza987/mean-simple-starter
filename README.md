@@ -43,6 +43,7 @@ This MEAN Starter kit is a template for Angular 5 MEAN projects.  MEAN is a full
 ### Back-end
 * Express
 * Mongoose
+* Bluebird Promise library
 * Body-Parser
 * Cors
 
