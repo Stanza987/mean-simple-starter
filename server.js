@@ -20,7 +20,8 @@ const api = require('./routes/api');
 
 // Connect to database via mongoose
 const config = require('./config/database');
-mongoose.connect(config.database)
+mongoose.Promise = require('bluebird');
+mongoose.connect(config.database, { useMongoClient: true, promiseLibrary: require('bluebird') })
     .then(() => console.log(`Connected to database ${config.database}`))
     .catch((err) => console.log(`Database error: ${err}`));
 
