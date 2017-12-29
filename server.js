@@ -7,16 +7,14 @@ const path = require('path');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const cors = require('cors');
 
 // Configuration
 const app = express();
 const port = process.env.PORT || 3000;
-const corsOptions = { origin: ['http://localhost:4200'] }
 
 // Routes
-const angular = require('./routes/angular');
-const api = require('./routes/api');
+const angular = require('./node_src/routes/angular');
+const api = require('./node_src/routes/api');
 
 // Connect to database via mongoose
 const config = require('./config/database');
@@ -37,10 +35,6 @@ app.use(logger('dev'));
 
 // Body-Parser
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-
-// Cross-Origin Resource Sharing (CORS)
-app.use(cors(corsOptions));
 
 // ******************************************
 // ROUTES

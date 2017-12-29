@@ -10,7 +10,7 @@ This MEAN Starter kit is a template for Angular 5 MEAN projects.  MEAN is a full
 </p>
 
 ## Versions
-* MongoDB v3.6.0
+* MongoDB v3.6.0 (Mongoose v4.13.8)
 * Express v4.16.2
 * Angular v5.1.2
 * Node.js v9.3.0
@@ -45,7 +45,6 @@ This MEAN Starter kit is a template for Angular 5 MEAN projects.  MEAN is a full
 * Mongoose
 * Bluebird Promise library
 * Body-Parser
-* Cors
 
 ### Development
 * Angular CLI v1.6.3
