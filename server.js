@@ -17,7 +17,7 @@ const angular = require('./node_src/routes/angular');
 const api = require('./node_src/routes/api');
 
 // Connect to database via mongoose
-const config = require('./config/database');
+const config = require('./node_src/config/database');
 mongoose.Promise = require('bluebird');
 mongoose.connect(config.database, { useMongoClient: true, promiseLibrary: require('bluebird') })
     .then(() => console.log(`Connected to database ${config.database}`))
