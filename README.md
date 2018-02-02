@@ -29,7 +29,7 @@ This MEAN starter repository is a full-stack development toolkit using the Javas
         * Back End (MongoDB, Express, Node.js)
             * Run `yarn run dev`, and navigate to `http://localhost:3000/`.
     * Production
-        * Run `yarn start`, and navigate to `http://localhost:3000/`.
+        * Run `yarn run build`, and navigate to `http://localhost:3000/`.
 
 ## Built-in scripts
 * `yarn run dev`
