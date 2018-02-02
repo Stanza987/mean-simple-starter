@@ -3,7 +3,7 @@
 </p>
 
 # MEAN Simple Starter
-### Last Update: 2/1/2018
+### Last Update: 2/2/2018
 This MEAN starter repository is a full-stack development toolkit using the Javascript-based technologies MongoDB, Express, Angular, and Node.js.
 
 <p align="center">
@@ -41,16 +41,16 @@ This MEAN starter repository is a full-stack development toolkit using the Javas
 
 ## Installed Packages
 ### Front-end
-* [Angular v5.2.3](https://angular.io/)
+* [Angular 5](https://angular.io/)
 * [Bulma CSS Framework v0.62](https://bulma.io/)
 * [Font-Awesome v5.0.6](https://fontawesome.com/)
 
 ### Back-end
-* Express
-* Mongoose
-* Body-Parser
+* [Express](https://expressjs.com/)
+* [Mongoose](http://mongoosejs.com/)
+* [Body-Parser](https://github.com/expressjs/body-parser)
 
 ### Development
 * [Angular CLI v1.6.7](https://github.com/angular/angular-cli)
-* Morgan Logging library
-* Typescript
+* [Morgan Logging library](https://github.com/expressjs/morgan)
+* [Typescript](https://www.typescriptlang.org/)
