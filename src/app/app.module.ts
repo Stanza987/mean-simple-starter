@@ -1,9 +1,8 @@
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule, Routes } from '@angular/router';
-// import { AppRoutes } from './app.routing';
-import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './Routing/app.routing.module';
 
 import { AppComponent } from './app.component';
 
@@ -15,7 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    // RouterModule.forRoot(appRoutes)
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
