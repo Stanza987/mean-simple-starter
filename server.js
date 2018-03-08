@@ -4,7 +4,6 @@
 // Dependencies
 const express = require('express');
 const logger = require('morgan');
-const bodyParser = require('body-parser');
 
 // Configuration
 const app = express();
@@ -28,8 +27,8 @@ app.set('views', 'dist');
 app.use(logger('dev'));
 
 // Body-Parser
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 // ******************************************
 // ROUTES
